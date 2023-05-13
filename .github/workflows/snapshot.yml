@@ -1,5 +1,8 @@
 name: "Publish snapshot"
-on: [ workflow_dispatch ]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   validation:
